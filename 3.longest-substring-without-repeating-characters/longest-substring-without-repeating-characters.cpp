@@ -1,7 +1,7 @@
 class Solution {
 public:
     int lengthOfLongestSubstring(string s) {
-    int visit[130]={0};/此处有待优化
+    int visit[130]={0};//此处有待优化
     int head=0,ans=0;
     if(s=="") {return 0;}
         for(int i=0; i<s.length(); i++){
